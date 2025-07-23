@@ -1,0 +1,12 @@
+.entry {
+  margin: 1rem 0;
+
+  h2 {
+    margin: 0 0 1rem 0;
+  }
+
+  .meta {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
+}

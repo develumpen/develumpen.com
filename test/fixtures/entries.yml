@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: Published entry
+  draft: false
+  published_at: 2025-07-23 17:56:14
+  body_markdown: MyText
+  body_html: MyText
+
+two:
+  title: Draft entry
+  draft: true
+  published_at: 2025-07-23 17:56:14
+  body_markdown: MyText
+  body_html: MyText

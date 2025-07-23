@@ -1,0 +1,5 @@
+<div id="<%= dom_id entry %>" class="entry">
+  <h2><%= link_to_unless_current entry.title, entry_path(entry) %></h2>
+  <div class="meta"><%= l entry.published_at, format: :long %></div>
+  <%== entry.body_html %>
+</div>

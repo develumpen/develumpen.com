@@ -10,5 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 0) do
+ActiveRecord::Schema[8.0].define(version: 2025_07_23_225614) do
+  create_table "entries", force: :cascade do |t|
+    t.string "title"
+    t.boolean "draft", default: false, null: false
+    t.datetime "published_at"
+    t.text "body_markdown", null: false
+    t.text "body_html", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 end

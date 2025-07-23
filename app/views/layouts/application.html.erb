@@ -23,6 +23,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <header>
+        <%= link_to_unless_current "develumpen.com", root_path %>
+      </header>
+      <p style="color: green"><%= notice %></p>
+      <%= yield %>
+    </div>
   </body>
 </html>
