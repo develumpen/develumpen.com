@@ -8,3 +8,47 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+html{
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+input,
+textarea,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
